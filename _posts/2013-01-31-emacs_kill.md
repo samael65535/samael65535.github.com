@@ -25,7 +25,9 @@ abcde(光标)fghijkl
 执行C-k C-M-k   C-y:
 fghijklabcde
 这样就把abcde加再上次kill的尾部了
-注意C-M-w下个命令一定是有关kill的,在emacs中向前向后移动也被归为命令
+注意:
+1. C-M-w下个命令一定是有关kill的,在emacs中向前向后移动也被归为命令
+2. M-w kill-ring-save 不支持
 #### kill的矩阵操作 ####
 如果我们要删除一个文本区的矩形区域则可以用 C-x r k 比如
 1111111222222
