@@ -80,12 +80,12 @@ JB :
   #
   comments :
     provider : disqus
-    disqus :
+    disqus : 
       short_name : samael
     livefyre :
-      site_id : 123
+      site_id : 
     intensedebate :
-      account : 123abc
+      account : 
     facebook :
       appid : 123
       num_posts: 5
