@@ -1,0 +1,49 @@
+<p>Liquid error: No such file or directory - /home/samael/Documents/blog/samael65535.github.com/_posts/_includes</p>
+
+<h4 id='id15'>起因</h4>
+
+<p>最近在看30天自制操作系统,准备自己写一个小操作系统当做毕业设计的项目来做, 因为自己日常的环境是Linux, 但是书中用的操作系统是windows,</p>
+
+<p>所以为了方便在Linux下开发,需要对一些东西进行修改</p>
+
+<h4 id='id16'>工具</h4>
+
+<p>随书光盘中的z_tools是在windows下环境下用的一些工具,已经有人制作出了对应的Linux工具了</p>
+
+<p><a href='http://hrb.osask.jp/z_tools.tar.bz2'>下载地址 z_tools</a></p>
+
+<h4 id='makefile'>Makefile</h4>
+
+<p>在项目中的Makfile 也需要进行相应的修改</p>
+
+<blockquote>
+<p>TOOLPATH = (工具的目录)</p>
+</blockquote>
+
+<blockquote>
+<p>INCPATH = (工具的目录)</p>
+</blockquote>
+
+<blockquote>
+<p>MAKE = make -r</p>
+</blockquote>
+
+<blockquote>
+<p>NASK = $(TOOLPATH)nask</p>
+</blockquote>
+
+<blockquote>
+<p>CC1 = $(TOOLPATH)cc1 -I $(INCPATH) -Os -Wall -quiet</p>
+</blockquote>
+
+<blockquote>
+<p>GAS2NASK = $(TOOLPATH)gas2nask -a OBJ2BIM = $(TOOLPATH)obj2bim BIN2OBJ = $(TOOLPATH)bin2obj BIM2HRB = $(TOOLPATH)bim2hrb RULEFILE = $(TOOLPATH)haribote/haribote.rul EDIMG = $(TOOLPATH)edimg IMGTOL = $(TOOLPATH)imgtol.com MAKEFONT = $(TOOLPATH)makefont GOLIB = $(TOOLPATH)golib00 COPY = cp DEL = rm</p>
+</blockquote>
+
+<blockquote>
+<p>haribote.sys : asmhead.bin bootpack.hrb Makefile cat asmhead.bin bootpack.hrb &gt; haribote.sys</p>
+</blockquote>
+
+<blockquote>
+<p>$(EDIMG) imgin:$(TOOLPATH)fdimg0at.tek \</p>
+</blockquote>
