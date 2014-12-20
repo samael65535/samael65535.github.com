@@ -2,8 +2,8 @@
 layout: post
 title: "Command_Pattern_第一节"
 description: ""
-category: 游戏开发,读书笔记
-tags: [c++, pattern]
+category: 读书笔记
+tags: [c++, 游戏开发]
 ---
 {% include JB/setup %}
 
