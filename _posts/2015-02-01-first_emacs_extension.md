@@ -11,7 +11,7 @@ tags: []
 
 代码不长，实现步骤也很简单，就是使用豆瓣的API进行书名的搜索并显示到一个新的Buffer里， 之后通过选择进行插入。包括了以下几个函数:
 
-* insert-md-book（调用API去查询图书）
+* search-db-book（调用API去查询图书）
 
 * show-books（把查询结果显示到一个新的Buffer中）
 
@@ -21,7 +21,7 @@ tags: []
 
 使用方法很简单:
 
-1. M-x insert-md-books
+1. M-x search-db-book
 2. 输入书名
 3. 选择结果
 
