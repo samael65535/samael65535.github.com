@@ -67,10 +67,12 @@ static void static_setBackgroundMusicCurrentTime(float currentTime)
 {
     [[SimpleAudioEngine sharedEngine] setBackgroundMusicCurrentTime:currentTime];
 }
-static float static_return()
+
+static float static_getBackgroundMusicCurrentTime()
 {
-    getBackgroundMusicCurrentTime [[SimpleAudioEngine sharedEngine] getBackgroundMusicCurrentTime];
+    return [[SimpleAudioEngine sharedEngine] getBackgroundMusicCurrentTime];
 }
+
 float SimpleAudioEngine::getBackgroundMusicCurrentTime() {
     return static_getBackgroundMusicCurrentTime();
 }
