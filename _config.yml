@@ -126,4 +126,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+gems: [jekyll-mermaid]
+mermaid:
+  src: "https://cdnjs.cloudflare.com/ajax/libs/mermaid/0.4.0/mermaid.full.js"

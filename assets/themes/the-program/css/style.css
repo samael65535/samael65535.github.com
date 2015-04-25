@@ -545,7 +545,7 @@ No styleguide reference.
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
-  color: #2d2d2d;
+  color: #000000;
 }
 #page {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
@@ -1482,3 +1482,10 @@ hr {
   *display: inline;
   float: right;
 }
+
+rect {
+	fill: #fafafa
+}
+#mermaidChart0 .node { fill:#fff; stroke:#666; stroke-width:1px; }
+#mermaidChart0 .node text  { fill:black; stroke:none; font-weight:300; font-family:"Helvetica Neue",Helvetica,Arial,sans-serf; font-size:14px; }
+#mermaidChart0 .edgeLabel text  { fill:#fff; stroke:none; font-weight:300; font-family:"Helvetica Neue",Helvetica,Arial,sans-serf; font-size:14px; }

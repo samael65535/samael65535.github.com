@@ -7,7 +7,10 @@ tags: [心得]
 ---
 {% include JB/setup %}
 
+
 最近买了[代码本色：用编程模拟自然系统], 所以对Processing颇感兴趣, 本这能在Emacs下面用就搞到Emacs下面的原则, 就配置一下processing-mode吧.
+
+
 
 # 配置 #
 
@@ -44,6 +47,8 @@ C-c C-p s    Search in Processing forum.
 运行效果如下:
 
 <img style="margin-left:0" src="/img/processing-run-in-emacs.jpg"/>
+
+
 
 # 参考资料 #
 
