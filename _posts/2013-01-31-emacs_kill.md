@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "emacs_kill的相关操作"
-description: ""
-category: emacs
-tags: [技巧]
 ---
-{% include JB/setup %}
 在emacs经常用的有关kill的操作有一些,现在总结一下.
 ### 基本操作 ###
 > C-k   kill-line  从当前插入点到行末的数据放入kill-ring

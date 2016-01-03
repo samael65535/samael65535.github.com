@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "改造Cocos2d-x中的SimpleAudioEngine"
-description: ""
-category: 游戏开发
-tags: [Cocos2d-x]
 ---
-{% include JB/setup %}
 
 # 背景 #
 

@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "cocos2d-lua/js中错误弹窗"
-description: ""
-category: 游戏开发
-tags: [心得,cocos2d-x]
 ---
-{% include JB/setup %}
 
 # 需求
 最近在使用lua制作一款手游。虽然lua支持热更新代码，但是让策划们玩的出错之话没有办法去复现当时是什么情况出现的，于是就制作了一个简单的报错弹窗功能，出错时可以把游戏当时的截图发给开发方便进行调试。

@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "ChromeApp"
-description: ""
-category: 
-tags: []
 ---
-{% include JB/setup %}
 
 # Chrome应用的生命周期 #
 Chrome 应用的生命周期应该与浏览器窗口的行为或网络连接无关。

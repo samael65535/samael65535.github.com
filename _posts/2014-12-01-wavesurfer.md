@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "wavesurfer的笔记"
-description: ""
-category: 游戏开发
-tags: [Javascript, Html5]
 ---
-{% include JB/setup %}
 
 # 简介 #
 

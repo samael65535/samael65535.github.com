@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Command_Pattern_第一节"
-description: ""
-category: 读书笔记
-tags: [c++, 游戏开发]
 ---
-{% include JB/setup %}
 
 # 定义 #
 把一个请求包装成一个对象, 从而使用户可以用不同的请求进行参数化.
