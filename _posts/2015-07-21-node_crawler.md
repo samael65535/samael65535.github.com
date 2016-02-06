@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "基于node的绅士小爬虫"
 category: test
 ---
