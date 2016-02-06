@@ -10,16 +10,16 @@ title: "cocos2d-lua/js中错误弹窗"
 其实js与lua的原理都差不多都当运行环境中发生错误时通过一个函数回到C++的环境中进行处理。
 
 在jsb中是:
-
-``` cpp
+{% highlight c++ %}
 	JS_SetErrorReporter(context, callFunc);
-```
+{% endhighlight %}
+
 
 lua有些不一样，当运行出错时会先调用
 
-``` lua
+{% highlight lua %}
 	__G__TRACKBACK__(errorMsg)
-```
+{% endhighlight %}
 
 然后去调用事先注册好的函数
 

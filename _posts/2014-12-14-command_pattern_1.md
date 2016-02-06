@@ -11,14 +11,14 @@ title: "Command_Pattern_第一节"
 ## 简单实现 ##
 最简单的办法就是有一连串的if对不同的按键进行不同的处理:
 
-```cpp
+{% highlight C++ %}
 void handleInput() {
 	if (isPressed('W')) doUp();
 	else if(isPressed('S')) doDown();
 	else if(isPressed('A')) doLeft();
 	else if(isPressed('D')) doRight();
 }
-```
+{% endhighlight %}
 
 以上就是一个最简单的实现, 但是还有些不够, 比如:
 
@@ -28,16 +28,16 @@ void handleInput() {
 ## 扩展一下 ##
 对于上下左右的移动我们都可以当做一个指令进行操作, 所以我们先定义一下Command的基类:
 
-```cpp
+{% highlight C++ %}
 class Command {
 public:
 	virtual ~Command() {};
 	virtual void execute(Actor *actor) = 0; //evecute是一个纯虚函数,子类用于其详细实现
 }
-```
+{% endhighlight %}
 再定义一个玩家类, 包含了获取输入与处理输入的操作, 并包含了四个指令类
 
-```cpp
+{% highlight C++ %}
 class InputHandler {
 public:
 	Command *handleInput();
@@ -47,22 +47,22 @@ private:
     Command *_leftCommand;
     Command *_rightCommand;
 }
-```
+{% endhighlight %}
 
 现在来实现一个操作向上移动的对象
 
-```cpp
+{% highlight C++ %}
 class UpCommand {
 public:
 	vitrual void execute(Actor *actor) {
 		actor -> doUp();    // delegate
 	}
 }
-```
+{% endhighlight %}
 
 这样的话我们就可以对玩家进行向上操作了, 相应的操作代码要改为:
 
-```cpp
+{% highlight C++ %}
 Command* HandleInput::handleInput() {
 	if(isPressed('W')) return _upCommand;
 	if(isPressed('S')) return _downCommand;
@@ -77,7 +77,7 @@ void Actor::doSomething() {
 		command -> execute(this);
 	}
 }
-```
+{% endhighlight %}
 
 # 还没有完 #
 如果我们想要对游戏对象进行撤消操作(比如Braid中的倒流), 应该怎么办?

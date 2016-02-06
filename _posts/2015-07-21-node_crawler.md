@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "基于node的绅士小爬虫"
-category: test
 ---
 最近在看node.js, 心想做个爬小本子的爬虫吧. 现在把大概思路去记录一下
 

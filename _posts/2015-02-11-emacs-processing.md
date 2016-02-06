@@ -29,15 +29,15 @@ title: "在Emacs下配置processing-mode的开发环境"
 
 其实使用方法很简单, 以下的这些操作的快捷键:
 
-```
-C-c C-p r    Run a sketch.
-C-c C-p b    Compile a sketch into .class files.
-C-c C-p p    Run a sketch full screen.
-C-c C-p e    Export sketch.
-C-c C-p d    Find in reference.
-C-c C-p f    Find or create sketch.
-C-c C-p s    Search in Processing forum.
-```
+
+* C-c C-p r    Run a sketch.
+* C-c C-p b    Compile a sketch into .class files.
+* C-c C-p p    Run a sketch full screen.
+* C-c C-p e    Export sketch.
+* C-c C-p d    Find in reference.
+* C-c C-p f    Find or create sketch.
+* C-c C-p s    Search in Processing forum.
+
 
 运行效果如下:
 

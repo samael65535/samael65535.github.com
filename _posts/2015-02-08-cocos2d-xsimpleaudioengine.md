@@ -11,9 +11,9 @@ title: "改造Cocos2d-x中的SimpleAudioEngine"
 
 * 与此同时在Cocos2d-x 3.3的版本更新中也发提供了基于OpenAL的音频接口
 
-``` cpp
+{% highlight C++ %}
 	cocos2d::experimental::AudioEngine
-```
+{% endhighlight %}
 
 # 分析 #
 
@@ -58,7 +58,7 @@ title: "改造Cocos2d-x中的SimpleAudioEngine"
 
 * SimpleAudioEngin.mm
 
-``` objective-c
+{% highlight objective-c %}
 static void static_setBackgroundMusicCurrentTime(float currentTime)
 {
     [[SimpleAudioEngine sharedEngine] setBackgroundMusicCurrentTime:currentTime];
@@ -75,11 +75,11 @@ float SimpleAudioEngine::getBackgroundMusicCurrentTime() {
 void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
     static_setBackgroundMusicCurrentTime(currentTime);
 }
-```
+{% endhighlight %}
 
 * SimpleAudioEngine_objc.m
 
-``` objective-c
+{% highlight objective-c %}
 #pragma mark SimpleAudioEngine - setBackgroundMusicCurrentTime
 -(void) setBackgroundMusicCurrentTime:(float) currentTime {
     [am setBackgroundMusicCurrentTime:currentTime];
@@ -89,11 +89,11 @@ void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
     return [am getBackgroundMusicCurrentTime];
 }
 
-```
+{% endhighlight %}
 
 * CDAudioManager.m
 
-``` objective-c
+{% highlight objective-c %}
 -(void) setBackgroundMusicCurrentTime:(float) currentTime {
     [self.backgroundMusic.audioSourcePlayer setCurrentTime:currentTime];
 }
@@ -101,7 +101,7 @@ void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
 -(float) getBackgroundMusicCurrentTime{
     return self.backgroundMusic.audioSourcePlayer.currentTime;
 }
-```
+{% endhighlight %}
 
 
 [FMOD]:<http://www.fmod.org/>

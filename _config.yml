@@ -1,3 +1,4 @@
+# Site settings
 # Dependencies
 markdown:         redcarpet
 highlighter: pygments
@@ -5,45 +6,38 @@ highlighter: pygments
 # Permalinks
 permalink:        pretty
 
-# Setup
-title:            Samael
-tagline:          ''
-description:      '
-douban: <a href="http://www.douban.com/people/keep.moving/" target="_blank">samael</a><br>
-email: <a href="mailto:samael.65535@gamil.com" target="_blank">samael</a><br>
-twitter: <a href="https://twitter.com/samael65535" target="_blank">@samael65535</a><br>
-weibo: <a href="http://weibo.com/1871138727" target="_blank">@samael65535</a><br>
-'
-url:              http://samael.cn
-author:
-  name : samael
-  email : samael.65535@gmail.com
-  github : samael65535
-  twitter : samael65535
-  feedburner : feedname
-
-
 gems: [jekyll-paginate]
-paginate:         2
+#paginate: 5
+#paginate_path: "page:num"
 
-# Custom vars
-version:          2.0.0
+title: Samael
+email: samael.65535@gmail.com
+description: "A jekyll theme implementing material design by using muicss."
+keywords: "jekyll, theme, material, muicss"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+#url:              "http://samael.cn"
+url:              "http://127.0.0.1:4000/"
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  twitter: samael65535
+  email: samael.65535@gmail.com
+  github: samael65535
+exclude:
+  - bower_components
+  - README.md
+full_name: Samael
 
-github:
-  repo:           https://github.com/samael65535/samael65535.github.com
+##set this to enable disqus commenting
+disqus: samael65535
 
-production_url : http://samael65535.github.com
-
-
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-#
-analytics :
-  provider : google
-  google :
-    tracking_id : 'UA-57926253-1'
-  getclicky :
-    site_id :
-  mixpanel :
-    token : '_MIXPANEL_TOKEN_'
+##set this to enable google analytics
+ga_id: 'UA-57926253-1'
+ga_domain: samael.cn

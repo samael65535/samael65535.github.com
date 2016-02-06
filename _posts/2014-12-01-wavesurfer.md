@@ -15,22 +15,22 @@ wavesurfer是一个使用canvas绘制波形图和操作音频的js库, 并且有
 
 * wavesurfer会在网页中搜索设置好的容器名的div并在其中新建一个canvas画布进行波形图的绘制
 
-```html
+{% highlight html %}
 <div id="waveform">
       <!-- Here be the waveform -->
 </div>
-```
+{% endhighlight %}
 
 * 使用Object.create(WaveSurfer)创建一个对象实例
 
-```javascript
+{% highlight javascript %}
 var wavesurfer = Object.create(WaveSurfer);
-```
+{% endhighlight %}
 
 * 在document中增一下个DOMContentLoaded事件响应用于初始化波形绘制的一些参数
 options里会有更多的选项, 可以到wavesurfer.js中查看默认的选项
 
-```javascript
+{% highlight javascript %}
 var options = {
   //表示在html中要绘制波形的容器,在index.html中可以找到
       container     : document.querySelector('#waveform'), // 选择页面中的容器
@@ -55,15 +55,15 @@ var options = {
       wavesurfer.enableDragSelection({
           color: 'rgba(0, 255, 0, 0.1)'
       });
-```
+{% endhighlight %}
 
 * 注册事件
 wavesurfer中预置了一些事件, 可以对音频进行操作, 如:
-``` javascript
+{% highlight javascript %}
 wavesurfer.on('ready', function () {
     wavesurfer.play();
 });
-```
+{% endhighlight %}
 具体可以网站或example中查看
 
 # 插件 #
