@@ -1,7 +1,7 @@
 # Site settings
 # Dependencies
-markdown:         redcarpet
 highlighter: rouge
+markdown:   redcarpet
 
 # Permalinks
 permalink:        pretty
