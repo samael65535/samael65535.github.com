@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "emacsclient对emacs的启动进行加速"
+categories: Emacs
 ---
 #### 起因 ####
 用emacs有一段时间了,随着配置的增加emacs的开启会越来越慢, 为了提高开启速度 可以创建一个emacs的守护进程

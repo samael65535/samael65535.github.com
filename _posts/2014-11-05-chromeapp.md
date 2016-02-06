@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ChromeApp"
+categories: javascript
 ---
 
 # Chrome应用的生命周期 #
@@ -23,24 +24,24 @@ Chrome 应用的生命周期应该与浏览器窗口的行为或网络连接无�
 ## 创建事件页面 ##
 
 要创建事件页面，在应用程序的清单文件中包含 "background" 字段，并将 background.js 包含在脚本（"scripts"）数组中。事件页面使用的所有库脚本需要首先加入 "backrgound" 字段：
-
+{% highlight javascript %}
     "background": {
         "scripts": [
             "foo.js",
                 "background.js"
             ]
     }
-
+{% endhighlight %}
 事件页面必须包含 onLaunched() 函数，当应用以任何方式执行时会调用该函数：
-
+{% highlight javascript %}
     chrome.app.runtime.onLaunched.addListener(function() {
         // 告诉您的应用执行的内容与方式。
     });
-
+{% endhighlight %}
 ## 创建窗口 ##
-
 Chrome 应用的窗口不和任何 Chrome 浏览器窗口关联，它们可以具有可选的框架，包含标题栏和大小控件。
 
+{% highlight javascript %}
     chrome.app.runtime.onLaunched.addListener(function() {
         chrome.app.window.create('main.html', {
             id: 'MyWindowID',
@@ -54,6 +55,7 @@ Chrome 应用的窗口不和任何 Chrome 浏览器窗口关联，它们可以�
                 minHeight: 600
             });
     });
+{% endhighlight %}
 
 应用程序首次安装或者更新时将调用 chrome.runtime.onInstalled()，每次调用该函数时将产生 onInstalled 事件。
 

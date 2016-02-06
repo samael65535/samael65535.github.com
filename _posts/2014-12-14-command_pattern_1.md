@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Command_Pattern_第一节"
+categories: C++
 ---
 
 # 定义 #

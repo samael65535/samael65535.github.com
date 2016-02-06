@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "wavesurfer的笔记"
+categories: Javascript
 ---
 
 # 简介 #

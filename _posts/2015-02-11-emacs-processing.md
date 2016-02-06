@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "在Emacs下配置processing-mode的开发环境"
+categories: Emacs Processing
 ---
 
 最近买了[代码本色：用编程模拟自然系统], 所以对Processing颇感兴趣, 本这能在Emacs下面用就搞到Emacs下面的原则, 就配置一下processing-mode吧.

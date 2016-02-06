@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "emacs_kill的相关操作"
+categories: Emacs
 ---
 在emacs经常用的有关kill的操作有一些,现在总结一下.
 ### 基本操作 ###
