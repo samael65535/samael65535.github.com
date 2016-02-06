@@ -95,6 +95,7 @@ void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
 * CDAudioManager.m
 
 {% highlight objective-c %}
+
 -(void) setBackgroundMusicCurrentTime:(float) currentTime {
     [self.backgroundMusic.audioSourcePlayer setCurrentTime:currentTime];
 }
@@ -102,6 +103,7 @@ void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
 -(float) getBackgroundMusicCurrentTime{
     return self.backgroundMusic.audioSourcePlayer.currentTime;
 }
+
 {% endhighlight %}
 
 
