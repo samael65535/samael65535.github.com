@@ -1,6 +1,5 @@
 # Site settings
 # Dependencies
-highlighter: rouge
 markdown:   kramdown
 
 # Permalinks
