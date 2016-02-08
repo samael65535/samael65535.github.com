@@ -103,7 +103,6 @@ void SimpleAudioEngine::setBackgroundMusicCurrentTime(float currentTime) {
 -(float) getBackgroundMusicCurrentTime{
     return self.backgroundMusic.audioSourcePlayer.currentTime;
 }
-
 {% endhighlight %}
 
 
