@@ -8,13 +8,16 @@ categories: lua, cocos
 
 # 分析
 
-* async   用于管理异步调用
+和接SDK的妹子了聊了聊, 基本的SDK都会有以下的功能
 
-* cheerio  用于提取网页的节点
+* 获取openid
 
-* minimist  用于命令行操作参数
+* 支付
 
-* request   用于对网页发送请求
+* 向渠道发送玩家信息
+
+* 调用Back的实体键
+
 
 # 实现思路
 
@@ -22,6 +25,4 @@ categories: lua, cocos
 
 # 可能有的问题
 
-
-
-[相关代码](https://github.com/samael65535/toy_code/tree/master/comic)
+[相关代码](https://github.com/samael65535/toy_code/tree/master/lua/SDKManager)
