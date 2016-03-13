@@ -89,6 +89,7 @@ SDKManager:handleSpecialFunc("UC", UCFunc);
 个人觉得这样看起了比较整齐一些.
 
 # 相关资料
+
 [LUA程序设计](http://book.douban.com/subject/3076942/)
 
 [相关代码](https://github.com/samael65535/toy_code/tree/master/lua/SDKManager)
