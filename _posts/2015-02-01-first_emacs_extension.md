@@ -26,7 +26,7 @@ categories: Emacs Markdown
 
 ## 现有的不足
 
-因为elisp也是刚学，一些概念也不是很清晰，所以还是有一些不足扩展。
+因为elisp也是刚学，一些概念也不是很清晰，所以还是有一些不足地方。
 
 * 函数作用域是全局的，但是输出的是Markdown标记，应该在markdown-mode下进行扩展。
 
@@ -35,12 +35,10 @@ categories: Emacs Markdown
 * 豆瓣的API限制了一些查询，如结果数量，查询次数
 
 ## 参考资料
+[GNU Emacs Lisp 编程入门]
 
 [Writing GNU Emacs Extensions]
 
-[GNU Emacs Lisp 编程入门]
-
-<http://xahlee.org/>
-
 [Writing GNU Emacs Extensions]:<http://book.douban.com/subject/1432819/>
+
 [GNU Emacs Lisp 编程入门]:<http://book.douban.com/subject/1240500/>
