@@ -29,7 +29,7 @@ SDKManager:getOpenId()
 
 # 实现思路
 
-生成一个基本的SDKManager, 游戏启动时可以从Android的层面去读取出相应的渠道号, 再通过setmetatable把SDKManger转成相应的Manager
+生成一个基本的SDKManager, 游戏启动时可以从Android的层面去读取出相应的渠道号, 再通过setmetatable把SDKManager转成相应的Manager
 
 生成流程如下:
 
@@ -54,7 +54,7 @@ __index = function(t, key)
 
 {% endhighlight %}
 
-* 生成相应的渠道Manager的代码, 注意: SDKManger里需要做个mock的方法, 防止在游戏逻辑调用时发生错误
+* 生成相应的渠道Manager的代码, 注意: SDKManager里需要做个mock的方法, 防止在游戏逻辑调用时发生错误
 {% highlight lua %}
 SDKManager = {
    __channel = "DEV"
