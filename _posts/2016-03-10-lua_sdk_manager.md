@@ -86,7 +86,7 @@ SDKManager:handleSpecialFunc("TEST", TESTFunc);
 SDKManager:handleSpecialFunc("UC", UCFunc);
 {% endhighlight %}
 
-个人觉得这样看起了比较整齐一些.
+个人觉得这样看起来比较整齐一些.
 
 # 相关资料
 
