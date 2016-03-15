@@ -9,7 +9,7 @@ gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
-title: Samael
+title: samael
 email: samael.65535@gmail.com
 description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
