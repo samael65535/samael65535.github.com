@@ -15,5 +15,9 @@ author: samael
 
 [富兰克林传]
 
+[一课经济学]
+
+
+[一课经济学]:<http://book.douban.com/subject/3225979/>
 [富兰克林传]:<http://book.douban.com/subject/2990595/>
 [穷查理宝典-查理.芒格的智慧箴言录-增订本]:<http://book.douban.com/subject/10485011/>
