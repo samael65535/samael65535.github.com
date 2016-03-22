@@ -32,3 +32,6 @@ channel_config/AndroidManifestUC.xml
 * ./build_native.sh UC
 * 测试
 
+# 更新
+20160322
+又新接了个SDK发现有些需求不太一样, 所以还要做完善一下打包流程
