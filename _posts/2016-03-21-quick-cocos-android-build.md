@@ -35,3 +35,5 @@ channel_config/AndroidManifestUC.xml
 # 更新
 20160322
 又新接了个SDK发现有些需求不太一样, 所以还要做完善一下打包流程
+20160323
+初步计划使用Gradle, 并与自己工程里的打包脚本进行结合
