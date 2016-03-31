@@ -17,13 +17,13 @@ cocos2d-js里自带的AssetManager, 每次都是把所有的更新资源一起�
 
 文件结构如下:
 
-这样就可以说去处理分章节下载的情况了, 但有需要注意:
+这样就可以说去处理分章节下载的情况了, project:
 
-project.manifest对应的manifest文件的初始版本号应为0.0, 因为在cocos2d-js在热更新的时候会首先比对版本号, 如果相同的话就不去更新了, 这样点开章节就会和服务器上对应的manifest版本号进行比对, 从而进行更新.
+但有需要注意.manifest对应的manifest文件的初始版本号应为0.0, 因为在cocos2d-js在热更新的时候会首先比对版本号, 如果相同的话就不去更新了, 这样点开章节就会和服务器上对应的manifest版本号进行比对, 从而进行更新.
 
 热更流程如下:
 
 
 # 参考
-http://karelgt.com/Cocos2dJS%20%E7%83%AD%E6%9B%B4%E6%96%B0/
+[cocos2d-js热更新](http://karelgt.com/Cocos2dJS%20%E7%83%AD%E6%9B%B4%E6%96%B0/)
 
