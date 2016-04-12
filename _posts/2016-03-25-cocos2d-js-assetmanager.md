@@ -17,7 +17,7 @@ cocos2d-js里自带的AssetManager, 每次都是把所有的更新资源一起�
 
 文件结构如下:
 
-![files](/img/cocos2d-js_asssetmanager.png)
+![files](/img/cocos2d-js_assetmanager.png)
 
 这样就可以去处理分章节下载的情况了, 但有需要注意:
 
