@@ -57,7 +57,7 @@ categories: cocos2d
 
 这个资料比较详细的介绍了SimpleAudioEngine的改造, 但是由于时间版本的问题这里的代码还是和实际工程中有些出入.所以还得修改一下(只针对IOS, Android可以自行扩展)
 
-* SimpleAudioEngin.mm
+* SimpleAudioEngine.mm
 
 {% highlight objective-c %}
 static void static_setBackgroundMusicCurrentTime(float currentTime)
