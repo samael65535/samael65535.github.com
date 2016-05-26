@@ -2,7 +2,7 @@
 layout: base
 ---
 <body style="padding: 0">
-
+{% include ads.html %}
   <article class="post-full">
     <header class="bg-holder post-page {% if page.color %}bg-{{ page.color }}{% endif %}" style="{% if page.cover %}background:url({{page.cover}}) no-repeat center center; background-size: cover{% endif %}">
       <a href="{{site.url}}/" class="overlay"><i class="fa fa-home fa-2x"></i></a>
@@ -39,7 +39,7 @@ layout: base
     {% endif %}
     </div>
   </article>
-
+{% include ads.html %}
   {% if site.disqus %}
   <script src="/js/script.js"></script>
   {% endif %}
