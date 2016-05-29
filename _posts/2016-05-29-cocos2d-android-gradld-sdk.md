@@ -24,16 +24,17 @@ author: samael
 
 ![struct](/img/Gradle项目结构.png)
 
-基本APP相当于白包, 如果使用App中的buildi.gradle, build出来的App包不会加入任何APP
+基本APP相当于白包, 如果使用App中的buildi.gradle, build出来的App包不会加入任何SDK的APK
 
-Libraries里是对不同渠道需求用的打包配置(最简单的比如icon需求), 包含asset lib res等等.
+Libraries里是对不同渠道需求用的打包配置(最简单的比如icon需求), 包含各自的asset lib res等等.
 
-游戏源码和共用的资源读取的是APP的, 特殊的在 对应的文件夹中, 他们之间在也可以相互包含.如接入cmcc的同时还可以再集成广告的SDK
+游戏源码和共用的资源读取的是APP的, 特殊的在资源对代码对应的文件夹中, 他们之间在也可以相互包含.如:接入cmcc的同时还可以再集成广告的SDK.
 
-Libraries中的文件如果APP与的文件同名, 会优先使用Libraries中的文件, 这样可以保证使每个SDK的特殊需求得以实现
+Libraries中的文件如果APP与的文件同名, 会优先使用Libraries中的文件, 这样可以保证使每个SDK的特殊需求得以实现.
 
 ## 后续工作:
-1. 集成脚本批量出包, 把APK按规则重命名之后, 放入同一文件夹中
+
+1. 集成脚本批量出包, 把APK按规则重命名之后, 放入同一文件夹中.
 
 2. 统一外围代码接口
 
