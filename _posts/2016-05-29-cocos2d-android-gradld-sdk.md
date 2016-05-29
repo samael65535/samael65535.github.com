@@ -1,6 +1,6 @@
 ---
 category: Android,Gradle
-title: Grade在cocos2d-x(2.x)游戏中集成
+title: Gradle在cocos2d-x(2.x)游戏中集成
 layout: post
 author: samael
 ---
