@@ -32,11 +32,11 @@ Libraries里是对不同渠道需求用的打包配置(最简单的比如icon需
 
 Libraries中的文件如果APP与的文件同名, 会优先使用Libraries中的文件, 这样可以保证使每个SDK的特殊需求得以实现.
 
-## 后续工作:
+## 后续工作
 
 1. 集成脚本批量出包, 把APK按规则重命名之后, 放入同一文件夹中.
 
 2. 统一外围代码接口
 
-## 相关参考:
+## 相关参考
 [Gradle集成修改AndroidManifest.xml打多个包实践](https://testerhome.com/topics/1708)
