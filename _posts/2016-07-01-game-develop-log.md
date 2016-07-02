@@ -1,6 +1,6 @@
 ---
 category: game
-title: 游戏开发日志
+title: 游戏开发总结
 layout: post
 author: samael
 ---
