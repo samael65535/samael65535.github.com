@@ -1,7 +1,7 @@
 ---
 category: cocos2d-js
 title: 使用cocos2d-js模拟水流波浪的模拟
-layout: post
+Layout: post
 author: samael
 ---
 
@@ -35,4 +35,4 @@ author: samael
 
 <http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236>
 
-[参考网址]<http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236>
+[参考网址]:<http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236>
