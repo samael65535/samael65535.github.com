@@ -9,7 +9,7 @@ author: samael
 
 # Demo效果
 
-这里只是实现了基本的表现, 对于增加纹理并是让相邻的长条看起来平滑, 还没有处理, 具体实现可以见[参考网址]
+这里只是实现了基本的表现, 对于增加纹理并是让相邻的长条看起来平滑, 还没有处理, 具体实现可以见参考网址
 
 <img style="margin-left:0" src="/img/cocos2d-js_flow_test.gif"/>
 
@@ -34,5 +34,3 @@ author: samael
 # 参考网址
 
 <http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236>
-
-[参考网址]:<http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236>
