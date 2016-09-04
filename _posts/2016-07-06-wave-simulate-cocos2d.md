@@ -29,7 +29,7 @@ author: samael
 
 # 代码
 
-<https://github.com/samael65535/toy_code/blob/master/EffectLab/fluid.js>
+<https://github.com/samael65535/GameLab/blob/master/src/Fluid.js>
 
 # 参考网址
 
