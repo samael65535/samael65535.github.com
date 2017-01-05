@@ -1,5 +1,5 @@
 ---
-category: Android,Gradle
+tag: [Android,Gradle]
 title: Gradle在Android进行编译依赖
 layout: post
 author: samael

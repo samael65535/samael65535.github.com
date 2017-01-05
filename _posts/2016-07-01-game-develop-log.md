@@ -1,5 +1,5 @@
 ---
-category: game
+tag: [other]
 title: 游戏开发总结
 layout: post
 author: samael

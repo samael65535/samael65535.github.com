@@ -1,5 +1,5 @@
 ---
-category: Android,Gradle
+tag: [Android,Gradle]
 title: Gradle在cocos2d-x(2.x)游戏中集成
 layout: post
 author: samael

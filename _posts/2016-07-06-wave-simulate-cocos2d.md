@@ -1,5 +1,5 @@
 ---
-category: cocos2d-js
+tag: [cocos2d-js]
 title: 使用cocos2d-js模拟水流波浪
 layout: post
 author: samael

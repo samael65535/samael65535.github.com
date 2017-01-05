@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我的第一个Emacs扩展"
-categories: Emacs Markdown
+tag: [Emacs, Markdown]
 ---
 之前写过2015年的读书计划，在写的时候发现使用Markdown插入图书链接很不方便, 所以干脆借着这次机会去学习一下如何写Emacs的扩展。
 ##  功能

@@ -1,5 +1,5 @@
 ---
-categories: lua
+tag: [Lua]
 title: Lua的备忘录模式
 layout: post
 ---

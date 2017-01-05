@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "30_os_diy_for_linux"
-categories: Linux
+tag: [Linux]
 ---
 #### 起因 ####
 最近在看30天自制操作系统,准备自己写一个小操作系统当做毕业设计的项目来做, 因为自己日常的环境是Linux, 但是书中用的操作系统是windows,

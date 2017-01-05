@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "gpen_for_linux"
-categories: Linux GPen
+tag: [Linux,GPen]
 ---
 
 ### 起因 ###

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "改造Cocos2d-x中的SimpleAudioEngine"
-categories: cocos2d
+tag: [cocos]
 ---
 
 # 背景 #

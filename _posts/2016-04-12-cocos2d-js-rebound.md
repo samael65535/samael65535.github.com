@@ -1,5 +1,5 @@
 ---
-category: game
+tag: [cocos2d-js]
 title: cocos2d-js反弹实现
 layout: post
 author: samael

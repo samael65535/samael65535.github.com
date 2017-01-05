@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "cocos2d-lua/js中错误弹窗"
-categories: cocos2d lua javascript
+tag: [Lua, cocos, Javascript]
 ---
 
 # 需求
@@ -11,16 +11,16 @@ categories: cocos2d lua javascript
 其实js与lua的原理都差不多都当运行环境中发生错误时通过一个函数回到C++的环境中进行处理。
 
 在jsb中是:
-{% highlight c++ %}
+``` c++
 	JS_SetErrorReporter(context, callFunc);
-{% endhighlight %}
+```
 
 
 lua有些不一样，当运行出错时会先调用
 
-{% highlight lua %}
+``` lua
 	__G__TRACKBACK__(errorMsg)
-{% endhighlight %}
+```
 
 然后去调用事先注册好的函数
 

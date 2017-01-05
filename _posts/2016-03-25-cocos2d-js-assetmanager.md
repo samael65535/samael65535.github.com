@@ -1,5 +1,5 @@
 --- 
-category: js, cocos
+tag: [cocos2d-js]
 title: cocos2d-js热更新优化
 layout: post
 author: samael
