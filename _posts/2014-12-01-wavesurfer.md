@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "wavesurfer的笔记"
-tag: [Javascript]
+tags: [Javascript]
 ---
 
 # 简介 #

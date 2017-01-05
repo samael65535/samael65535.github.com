@@ -1,5 +1,5 @@
 ---
-tag: [cocos2d-js]
+tags: [cocos2d-js]
 title: cocos2d-js中obb碰撞检测的实现
 layout: post
 author: samael

@@ -1,5 +1,5 @@
 ---
-tag: [Javascript]
+tags: [Javascript]
 title: 关于JS中switch和if进行多路判断的一些讨论
 layout: post
 author: samael

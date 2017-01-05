@@ -1,5 +1,5 @@
 --- 
-tag: [other]
+tags: [other]
 title: 最近想读的书
 layout: post
 author: samael

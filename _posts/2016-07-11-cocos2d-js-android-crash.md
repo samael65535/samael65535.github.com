@@ -1,5 +1,5 @@
 ---
-tag: [cocos2d-js,android]
+tags: [cocos2d-js,android]
 title: 最近cocos2d-js编译的一些坑
 layout: post
 author: samael

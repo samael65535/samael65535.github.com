@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一篇博客"
-tag: [others]
+tags: [others]
 ---
 ### 换新博客的目的 
 

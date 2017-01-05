@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "cocos2d-lua/js中错误弹窗"
-tag: [Lua, cocos, Javascript]
+tags: [Lua, cocos, Javascript]
 ---
 
 # 需求

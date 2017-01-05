@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Command_Pattern_第一节"
-tag: [C++]
+tags: [C++]
 ---
 
 # 定义 #

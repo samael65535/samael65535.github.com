@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ChromeApp"
-tag: [Javascript]
+tags: [Javascript]
 ---
 
 # Chrome应用的生命周期 #
