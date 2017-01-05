@@ -1,41 +1,87 @@
-# Site settings
-# Dependencies
-markdown:   kramdown
-highlighter: rouge
-# Permalinks
-permalink:        pretty
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
 
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+# Basic
+name:               "Samael"
 
-title: samael
-email: samael.65535@gmail.com
-description: "A jekyll theme implementing material design by using muicss."
-keywords: "jekyll, theme, material, muicss"
-#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
-# url:              "http://samael65535.github.io"
-# url:              "http://127.0.0.1:4000"
-baseurl: "" # the subpath of your site, e.g. /blog/
-paginate: 5
-paginate_path: "page:num"
 
-# Build settings
+
+author:
+  name:             samael
+  twitter:          samael65535
+  github:           samael65535
+  email:            samael.65535@gmail.com
+
+# Google-analytics
+google-analytics:
+  id:               "UA-57926253-1"
+
+# Disqus
+disqus:
+  id:               "samael"
+
+# URL
+#url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "http://localhost:4000" # use this url when develop
+baseurl:            "" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Shanghai
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/AWEEKJ/Kiko-plus"
+
+
+
+# Sass
 sass:
-  sass_dir: _sass
-  style: :compressed
-links:
-  twitter: samael65535
-  email: samael.65535@gmail.com
-  github: samael65535
-exclude:
-  - bower_components
-  - README.md
-full_name: Samael
+  sass_dir:         _sass
+  style:            :compressed
 
-##set this to enable disqus commenting
-disqus: samael
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
-##set this to enable google analytics
-ga_id: 'UA-57926253-1'
-ga_domain: http://samael.cn
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+exclude:            [vendor]
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

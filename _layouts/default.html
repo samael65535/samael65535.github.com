@@ -1,9 +1,11 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
 <body>
-    {% include header.html %}
-    <div class="mui-container">
+  <div class="content-container">
     {{ content }}
-    </div>
+
+    {% include footer.html %}
+  </div>
 </body>
+</html>

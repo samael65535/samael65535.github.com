@@ -1,11 +1,12 @@
 ---
-layout: page
-color: red
-title: Error 404
+layout: default
 ---
-<div id="home" class="grid post">
-<div class="unit whole">
-	<h1>Sorry. Looks like the page you requested does not exist.</h1>
-	<p style="text-align:center"><a href="/">Go back</a></p>
-</div>
+<header>
+  <h1 class="header-small">
+    <a href="{{ site.baseurl }}">{{ site.name }}</a>
+  </h1>
+</header>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span>Sorry, but the page you were trying to view does not exist.</span>
 </div>
