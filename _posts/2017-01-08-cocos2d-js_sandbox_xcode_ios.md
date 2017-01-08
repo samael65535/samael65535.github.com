@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cocos2d-js从真机(iOS)中调去存档"
+title: "cocos2d-js从真机(iOS)中调取存档"
 description: ""
 date: 2017-01-08
 tags: [cocos2d-js,xcode,iOS]
