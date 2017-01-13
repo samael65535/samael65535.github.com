@@ -1,4 +1,3 @@
-CocosCreator全局通知的实现
 ---
 layout: post
 title: "CocosCreator全局通知的实现"
@@ -32,7 +31,7 @@ EventManager是之前Cocos2d-x的事件发分发实现, 这里得到了保留
 
 
 ``` javascript
-cc.eventManager.addListener(listener, this.node)
+cc.eventManager.addListener(listener, this.node);
 
 var event = new cc.Event.EventCustom('xxxxxx', true);
 event.detail = value;
