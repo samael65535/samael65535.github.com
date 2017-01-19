@@ -21,6 +21,7 @@ share: true
 
  
 ``` js
+// LoadingLayer.js
 cc.Class({
     extends: cc.Component,
     properties: {
