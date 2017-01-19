@@ -40,6 +40,7 @@ cc.Class({
 ## 屏蔽层唤醒
 
 对屏蔽层唤醒有两种实现
+
 * 动态的addChild
 
 ``` javascript
