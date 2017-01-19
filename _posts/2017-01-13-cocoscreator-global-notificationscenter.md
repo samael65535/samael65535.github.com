@@ -2,7 +2,7 @@
 layout: post
 title: "CocosCreator全局通知的实现"
 description: ""
-date: 2017-01-09
+date: 2017-01-13
 tags: [CocosCreator]
 comments: true
 share: true
