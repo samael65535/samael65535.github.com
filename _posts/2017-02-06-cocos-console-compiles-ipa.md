@@ -65,7 +65,7 @@ share: true
 
 ## 解决
 真正的命令是: 
-cocos compile -p ios -t TARGET -m release –sign-identity SIGN_ID
+`cocos compile -p ios -t TARGET -m release –sign-identity SIGN_ID`
 之后在会在游戏项目publish下生成ipa文件
 
 
