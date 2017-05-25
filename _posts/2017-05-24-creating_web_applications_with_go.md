@@ -104,6 +104,8 @@ https://stackoverflow.com/questions/37188760/mgo-v2-find-select-one-returns-blan
 很有用的一个工具
 http://tammersaleh.com/posts/manage-your-gopath-with-direnv/
 
+## 视频教程
+http://www.bilibili.com/video/av9507689/
 
 
 
