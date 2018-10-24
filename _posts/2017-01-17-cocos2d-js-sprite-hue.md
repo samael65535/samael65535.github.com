@@ -5,17 +5,20 @@ layout: post
 author: samael
 ---
 
+# 用cocos2d-js修改Sprite的色调
+
 在游戏中我们要实现同样的敌人样子，但是还有是一定的区别
 
 总不能让美术一套一套的出图吧
 
 我们需要对精灵的**色相**进行调整而不是简单的setColor,如图
-![jpg](http://ojk5fzxey.bkt.clouddn.com/2017011314843083896270.jpg?imageView2/0/format/jpg)
+![](pic-blog.test.upcdn.net/2018/10/24/15403546053618.jpg)
 
 
 基本原理就是让纹理中的每种颜色在色盘中平移一个值
+![](pic-blog.test.upcdn.net/2018/10/24/15403545898739.jpg)
 
-![jpg](http://ojk5fzxey.bkt.clouddn.com/20170113148430948881314.jpg?imageView2/0/format/jpg)
+
 
 ## shader代码
 ``` c

@@ -5,6 +5,8 @@ layout: post
 author: samael
 ---
 
+# 给cocos中TMXMap增加解析ImageLayer的功能
+
 在制作瓦片地图时, 有时可能需要在瓦片地图下去插入一个背景, 如果是单一的大图背景, 我们可以直接在TMXMap的节点下插入一个图片就可以
 
 | 图片 |
@@ -28,7 +30,8 @@ author: samael
 
 但是项目中有些背景纯放一张图, 虽然可行, 但是会让纹理大小没办法控制 比如
 
-![jpg](http://ojk5fzxey.bkt.clouddn.com/20170113148430789918187.jpg?imageView2/0/format/jpg)
+![](pic-blog.test.upcdn.net/2018/10/24/15403546257521.jpg)
+
 
 背影图中间是个空的透明像素, 这样其实在中也会占用内存, 所以需要把图拆开然后再拼成需要的图案
 
@@ -119,7 +122,6 @@ pos = Vec2(layerInfo->_layerOffset.x, pos.y - layerInfo->_layerOffset.y - childS
 child->setPosition(pos);
 addChild(child, idx, idx);
 ```
-
 
 
 
