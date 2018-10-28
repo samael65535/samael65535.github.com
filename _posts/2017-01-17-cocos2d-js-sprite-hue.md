@@ -12,11 +12,11 @@ author: samael
 总不能让美术一套一套的出图吧
 
 我们需要对精灵的**色相**进行调整而不是简单的setColor,如图
-![](pic-blog.test.upcdn.net/2018/10/24/15403546053618.jpg)
+![](http://pic-blog.test.upcdn.net/2018/10/24/15403546053618.jpg)
 
 
 基本原理就是让纹理中的每种颜色在色盘中平移一个值
-![](pic-blog.test.upcdn.net/2018/10/24/15403545898739.jpg)
+![](http://pic-blog.test.upcdn.net/2018/10/24/15403545898739.jpg)
 
 
 
