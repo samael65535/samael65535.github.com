@@ -10,9 +10,9 @@ share: true
 # frps中https使用
 ## 申请免费证书
 这里可以在网上找一个免费的https证书, 生成之后下载到本地
-## 设置fprs端口
+## 设置frps端口
 ``` 
-[common]                                                                                                                   
+[common]                                                                                                          
 bind_port = 7000                                                                                                           
 vhost_http_port =8080                                                                                                      
 vhost_https_port =9090      # https 端口号, 可以和http设置同一个                                                                                    
