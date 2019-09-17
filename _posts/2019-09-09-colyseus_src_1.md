@@ -89,10 +89,20 @@ src
     ├── Transport.ts
     └── WebSocketTransport.ts
 ```
+
+## 类的相互调用关系
+``` bash
+npx arkit -e "rooms/*,errors/*,matchmaker/*,serializer/*,transport/*,discovery/*,presence/*,Debug.ts" -o ../root.svg
+```
+
+![root](http://pic-blog.test.upcdn.net/2019/09/17/root.svg)
+
+
 以下是项目中的核心类文件
 * Server.ts 服务注册, 端口注册等关于服务器的一些方法
 * MatchMaker.ts 玩家匹配, 对申请连接的玩家进行房间分配
 * Room.ts 加入房间, 接收信息, 离开房间等一些客户端行为的回调
 
 下一篇进行Server.ts的源码分析, 这个也是使用Colyseus能接触到的第一个类
+
 
