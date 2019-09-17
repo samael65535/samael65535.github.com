@@ -11,6 +11,8 @@ share: true
 Server的职责是保证服务器与客户端提供网络连接
 所以在程序启动前会先对服务器的连接协议, 使用的web接口进行一系列的配置
 
+![server](http://pic-blog.test.upcdn.net/2019/09/17/server.svg)
+
 ## 配置定义 ServerOptions
 构造Sever时的配置
 ``` ts
