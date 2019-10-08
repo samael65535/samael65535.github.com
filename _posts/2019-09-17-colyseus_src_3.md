@@ -3,11 +3,10 @@ layout: post
 title: "Colyseus源码阅读3"
 description: ""
 date: 2019-09-17
-tags: []
+tags: [Colyseus,源码阅读,Node,TypeScript,服务器开发,游戏开发]
 comments: true
 share: true
 ---
-# 
 MatchMaker 管理房间与匹配于连接来的玩家,是Server与Room的中介
 ```bash
 npx arkit -e "rooms/*,errors/*,serializer/*,transport/*,Debug.ts,discovery/*,index.ts,presence/*" -f MatchMaker.ts -o ../matchmaker.svg
